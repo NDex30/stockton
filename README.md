@@ -10,6 +10,6 @@ A distributed cache written in Go
 - Should be able to support telemetry (thinking different interface and package)
 - Support multiple caching algorithms including LRU, LFU, ARC, TTL based sizing
 - Redudant caching mechanisms, first focus would be primary/secondary nodes
-- - Handle rebalancing in the background as nodes drop in and out
-- - Maintain an address book of keys to primary/secondary locations, share address book across all nodes
-- - If multiple nodes are dropped, nothing can be done to save entry. 
+    - Handle rebalancing in the background as nodes drop in and out
+    - Maintain an address book of keys to primary/secondary locations, share address book across all nodes
+    - If multiple nodes are dropped, nothing can be done to save entry. 
